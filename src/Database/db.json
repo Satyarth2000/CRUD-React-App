@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "MS Dhoni",
+      "username": "dhoni",
+      "email": "msdhoni@gmail.com",
+      "phone": "4563214535",
+      "id": 1
+    },
+    {
+      "name": "Mohd Shami",
+      "username": "mohdshami",
+      "email": "shami@gmail.com",
+      "phone": "7896547896",
+      "id": 2
+    },
+    {
+      "name": "Rohit Sharma",
+      "username": "rohit",
+      "email": "rohitsharma25@gmail.com",
+      "phone": "9776554829",
+      "id": 3
+    },
+    {
+      "name": "Virat Kohli",
+      "username": "chiku",
+      "email": "viratkohli18@gmail.com",
+      "phone": "9818564578",
+      "id": 4
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "username": "bumrah",
+      "email": "bumrah345@gmail.com",
+      "phone": "9555664415",
+      "id": 5
+    }
+  ]
+}
