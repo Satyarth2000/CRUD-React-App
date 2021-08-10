@@ -8,7 +8,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter basename = {process.env.https:satyarth2000.github.io/CRUD-React-App/>
+    <HashRouter>
       <NavBar />
       <Switch>
         <Route exact path="/" component={Crudapp} />
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/edit/:id" component={EditUser} />
         <Route component={NotFound} />
       </Switch>
-    </HashRouter>
+    </HashRouter >
   );
 }
 
