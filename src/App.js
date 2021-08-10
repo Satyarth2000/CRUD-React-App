@@ -8,7 +8,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <Switch>
         <Route exact path="/" component={Crudapp} />
