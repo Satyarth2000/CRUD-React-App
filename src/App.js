@@ -4,7 +4,7 @@ import EditUser from './Component/EditUser';
 import NavBar from './Component/NavBar';
 import NotFound from './Component/NotFound';
 import Crudapp from './Component/Crudapp';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/edit/:id" component={EditUser} />
         <Route component={NotFound} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
